@@ -13,7 +13,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 # Define the constant directory path
-DIRECTORY_PATH = r"C:\Users\prera\Desktop\ANANT\GSTR 1 & 3B"
+DIRECTORY_PATH = r"C:\Users\prerak\Desktop"
 
 def list_files(directory):
     files = []
@@ -72,9 +72,9 @@ def update_excel(current_data_filename):
     send_email(current_data_filepath)
 
 def send_email(filepath):
-    sender_email = "mmnautomationdelhi@gmail.com"
-    receiver_email = "anant.jain@mmnissim.com"
-    password = "mmuwaddxmhrpcbkn"  # Your app password here
+    sender_email = "xxxxxx@gmail.com"
+    receiver_email = "zzzzz@cool.com"
+    password = "xyxyxyxyx"  # Your app password here
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
