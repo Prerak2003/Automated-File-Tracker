@@ -1,25 +1,13 @@
-README_CONTENT = """
-# Excel Update and Email Script
+# Excel File Updater README
 
-Automate the process of updating an Excel file with new data from a specified directory and then sending the updated Excel file via email.
-
-## Introduction
-
-Managing and updating Excel files manually can be time-consuming and error-prone. This Python script provides a seamless solution for automating the process of updating Excel files with new data and distributing them via email. Whether you're handling sales reports, financial data, or any other form of structured information, this script simplifies the workflow and ensures accuracy and efficiency.
+## Table of Contents
+1. [Prerequisites](#prerequisites)
+2. [Setup](#setup)
+3. [Usage](#usage)
+4. [Dependencies](#dependencies)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Prerequisites
-
-Before using this script, ensure you have the following prerequisites:
-
-- Python installed on your machine
-- Gmail account with access to less secure apps or an app password
-- Directory containing the Excel files to be updated
-
-## Setup
-
-### Cloning the Repository
-
-To get started, clone this repository to your local machine using the following command:
-
-```bash
-git clone https://github.com/your-username/excel-update-email-script.git
+- Python 3.x installed on your system.
+- Ensure `openpyxl` library is installed. If not, you can install it using:
